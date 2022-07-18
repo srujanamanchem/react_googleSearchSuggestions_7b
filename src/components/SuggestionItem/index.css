@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.suggestion {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: 'roboto';
+  padding-left: 10px;
+}
+.suggestion-text {
+  font-size: 14px;
+  margin: 8px;
+  color: #475569;
+}
+.arrow {
+  width: 20px;
+  cursor: pointer;
+}
